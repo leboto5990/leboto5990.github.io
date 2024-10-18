@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background-color: navy;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.welcome {
+    text-align: center;
+    margin: 20px;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.carousel-item {
+    position: relative;
+    margin: 0 10px;
+    transition: transform 0.5s;
+}
+
+.carousel-item img {
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+    transition: transform 0.5s;
+}
+
+.carousel-item img:hover {
+    transform: scale(1.05);
+}
+
+.destination-link {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.destination-link:hover {
+    background-color: rgba(255, 204, 0, 0.8);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: navy;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* Container for the marquee */
+.marquee-container {
+    width: 100%; /* Full width */
+    overflow: hidden; /* Hide any content that goes outside the container */
+    background-color: #333; /* Background color */
+    color: white; /* Text color */
+    padding: 10px 0;
+    box-sizing: border-box;

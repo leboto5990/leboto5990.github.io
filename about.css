@@ -1,0 +1,52 @@
+
+.about {
+    background-color: white;
+    color: dark grey;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px gray;
+}
+
+.about h2 {
+    color: blue;
+}
+
+.about h3 {
+    color:blue;
+}
+
+.about p:hover {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    background-color:gray;
+   
+
+}
+
+.about ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about ul li {
+    background-color: none;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color:none;
+}
+
+.about ul li:hover {
+    background-color:gray;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: Blue;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

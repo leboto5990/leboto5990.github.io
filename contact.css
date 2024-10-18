@@ -1,0 +1,71 @@
+
+.contact {
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px gray;
+}
+
+.contact h2 {
+    color:dark blue;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid:gray;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: blue;
+    outline: none;
+}
+
+.submit-btn {
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.submit-btn:hover {
+    background-color:blue;
+    transform: translateY(-2px);
+}
+
+
+@media (max-width: 600px) {
+    .contact {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+    .submit-btn {
+        width: 100%;
+    }
+}
